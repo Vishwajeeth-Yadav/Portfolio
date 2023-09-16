@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Signika Negative;
+    color: white;
+
+}
+
+body {
+    background-color: #003566;
+    min-width: 100%;
+    min-height: 100%;
+    /* overflow-x: hidden; */
+    position: relative;
+}
+
+#Header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #001d3d;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+}
+
+#left-Header {
+    font-family: Dancing Script;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 0 15px;
+    margin: 0 30px;
+}
+
+#right-Header {
+    padding: 0 10px;
+    margin: 0 10px;
+
+}
+
+#right-Header ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+#right-Header ul li  {
+    list-style: none;
+    font-size: 25px;
+}
+#right-Header ul li a{
+    text-decoration: none;
+}
+
+#main {
+    /* background-color: grey; */
+    width: 100%;
+    min-height: 90vh;
+}
+
+#page1 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: top;
+  
+    background-size: cover;
+    /* margin-bottom: 5px; */
+
+}
+
+#left-section {
+    width: 30%;
+    height: 60vh;
+    /* background-color: red; */
+    margin-top: 101px;
+    margin-left: 70px;
+
+
+}
+
+#left-section img {
+    width: 70%;
+    height: 80%;
+    border-radius: 10%;
+    margin-top: 0px;
+    margin-left: 45px;
+    box-shadow: 10px 10px 10px #001d3d;
+}
+
+#right-section {
+    width: 60%;
+    height: 60vh;
+    /* background-color: red; */
+    margin-top: 300px;
+}
+
+#right-section h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: -80px;
+}
+
+#right-section span {
+    color: rgb(98, 9, 223);
+    margin-left: 10px;
+}
+
+#About {
+    background: linear-gradient(#003566, #001d3d, #001d3d, #001d3d, #003566, black);
+    width: 100%;
+    height: 60vh;
+    /* background-color: gray; */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    padding: 50px 0;
+}
+
+#About h2 {
+    padding-top: 30px;
+    font-size: 55px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Dancing Script;
+    text-shadow: -5px 2px 3px rgb(148, 5, 214);
+}
+
+#About img {
+    width: 70px;
+    height: 70px;
+
+}
+
+#quote {
+
+    /* margin-right:93% ; */
+    position: absolute;
+    left: 2rem;
+    z-index: -1;
+
+}
+
+#Uquote {
+    /* margin-left: 122%; */
+    position: absolute;
+    right: 2rem;
+    z-index: -1;
+    bottom: 4cm;
+}
+
+#about-left {
+    width: 55%;
+    height: 65vh;
+    /* background-color: red; */
+    margin: 0 50px;
+}
+
+#about-left #p1 {
+    margin-top: 20px;
+    font-size: 27.5px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+#about-left #p2 {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+.icons {
+    text-align: center;
+    font-size: 35px;
+    padding: 25px 0;
+    z-index: 10;
+}
+#download-button{
+    padding: 10px;
+    background-color: rgb(194, 35, 35);
+    font-size: 25px;
+    border: 2px solid white;
+}
+#download-button:hover{
+    color:black;
+    border-color: black;
+}
+
+.icons a {
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+
+.bxl-facebook-circle:hover {
+    color: rgb(0, 149, 255);
+    font-size: 50px;
+    transition: all 0.5s ease;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bxl-instagram:hover {
+    color: rgb(138, 12, 73);
+    font-size: 50px;
+    transition: all 0.5s ease;
+    background-color: white;
+    border-radius: 25%;
+}
+
+.bxl-linkedin-square:hover {
+    color: rgb(33, 92, 218);
+    font-size: 50px;
+    transition: all 0.5s ease;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.bxl-github:hover {
+    color: rgb(45, 44, 44);
+    font-size: 50px;
+    transition: all 0.5s ease;
+    background-color: white;
+    border-radius: 50%
+}
+
+#about-right {
+    width: 45%;
+    height: 65vh;
+    /* background-color: chartreuse; */
+    margin: 0 50px;
+}
+
+#about-right h2 {
+    margin-bottom: 50px;
+}
+
+#about-right ul li {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+#about-right ul li p {
+    margin-right: 20px;
+
+}
+
+#about-right ul li i {
+    color: chartreuse;
+}
+
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(black, black, black, #003566);
+}
+
+#page2 h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Dancing Script;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-shadow: -5px 2px 3px red;
+}
+
+#row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+    margin: 20px 0;
+    width: 20%;
+    height: 35vh;
+    /* background-color: gray; */
+}
+
+#c1 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 5%;
+
+}
+
+#c1 a {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#page3 {
+    width: 100%;
+    height: 100vh;
+}
+
+#freelancer {
+    width: 100%;
+    height: 30%;
+    margin-top: 70px;
+    background: linear-gradient(145deg, #003566, rgb(216, 193, 61), rgb(115, 67, 177), #003566);
+    text-align: center;
+
+   
+}
+#free_cont{
+    /* margin-top: 30px; */
+    padding: 50px;
+   
+}
+
+#freelancer button{
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10%;
+    margin-top: 30px;
+}
+#freelancer h3{
+    color: black;
+    font-size: 50px;
+    
+}
+
+#freelancer button:hover{
+    background-color: chartreuse;
+    font-family: Dancing Script;
+    cursor: pointer;
+    
+}
+
+#contact{
+   
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+#cont-left{
+    width: 50%;
+    height: 60vh;
+    /* background-color: wheat; */
+    
+}
+ #cont-conta{
+       margin: 50px 80px;
+ }
+
+#cont-left i{
+    padding: 30px;
+    
+    font-size: 30px;
+    margin: 5px;
+}
+#cont-left i span{
+    margin:50px;
+    font-size: 25px;
+    color: goldenrod;
+}
+
+#cont-right{
+    width: 50%;
+    height: 60vh;
+    /* background-color: azure; */
+    
+}
+#rig-cont{
+    margin-top: 70px;
+}
+#rb1{
+    width: 50%;
+    height: 4vh;
+    color: black;
+    margin: 15px 0;
+}
+#rb2{
+    width: 60%;
+    height: 10vh;
+    color: black;
+    margin: 15px 0;
+}
+#submit-button{
+    color:white;
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(133, 19, 19);
+    margin-left: 20%;
+
+}
+
+#footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #001d3d;
+    /* text-align: center; */
+    
+}
+#footer p{
+   padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
